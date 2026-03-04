@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from __future__ import annotations
 from dataclasses import dataclass
 from math import hypot, pi
@@ -84,3 +85,20 @@ if __name__ == "__main__":
     print(f"Kreis: Fläche={k.flaeche():.2f}, Umfang={k.umfang():.2f}")
     print(f"Rechteck: Fläche={r.flaeche():.2f}, Umfang={r.umfang():.2f}")
     print(f"Punkt {p2} liegt im Rechteck? {r.enthaelt(p2)}")
+=======
+def addiere(a, b):
+    return a + b
+
+
+print("Hallo Welt!")
+ergebnis = addiere(3, 4)
+print("3 + 4 =", ergebnis)
+
+
+def subtrahiere(a, b):
+    return a - b
+
+
+ergebnis_subtraktion = subtrahiere(10, 5)
+print("10 - 5 =", ergebnis_subtraktion)
+>>>>>>> human_feature
